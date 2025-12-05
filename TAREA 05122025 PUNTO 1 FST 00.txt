@@ -1,0 +1,34 @@
+iniciar-programa
+    define-nueva-instruccion gira-derecha como inicio
+    	gira-izquierda;
+        gira-izquierda;
+        gira-izquierda;
+    fin;
+        inicia-ejecucion
+            si orientado-al-norte entonces inicio
+            	gira-izquierda;	
+            fin;
+        	si orientado-al-este entonces inicio
+            	gira-izquierda;
+                gira-izquierda;
+            fin;
+        	si orientado-al-sur entonces inicio
+            	gira-izquierda;
+                gira-izquierda;
+                gira-izquierda;
+            fin;
+            
+            mientras frente-libre hacer inicio
+                avanza;
+                si frente-bloqueado entonces inicio
+                gira-izquierda;
+            	fin;
+                si frente-bloqueado y derecha-bloqueada entonces inicio
+            	gira-izquierda;
+                gira-izquierda;
+                gira-izquierda;
+            	fin;
+            fin;
+          apagate;
+	termina-ejecucion
+finalizar-programa

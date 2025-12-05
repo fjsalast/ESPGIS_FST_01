@@ -1,0 +1,7 @@
+**TAREA 05/12/2025**:
+
+Desarrollar el código para que Karel El Robot ejecute las siguientes instrucciones y condiciones:
+
+1. El objetivo es que Karel salga de una “caja” de N x M . La caja tendrá una sola salida. La salida estará en cualquier posición. La salida no tiene zumbador. Debe apagarse al definir que esta afuera.  Deben usarse funciones.
+
+2. El objetivo es que Karel tome el zumbador que está en una caja compuesta por tres muros únicamente (cajita) y la deje en la esquina inferior izquierda de una caja cerrada más grande que comprende el dominio del ejercicio dentro de la que se ubican las cajitas en posiciones aleatorias. La entrada a la cajita siempre será por el norte. Hay N de estas cajitas pero solo en una ésta el zumbador. El zumbador puede estar en cualquier cajita.
